@@ -1,14 +1,14 @@
 [project]
-name = "anticoagulant"
+name = "chu-cheat-sheet"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
-    "anticoagulant",
+    "chu-cheat-sheet",
     "pandas>=2.2.3",
     "streamlit>=1.39.0",
 ]
 
 [tool.uv.sources]
-anticoagulant = { workspace = true }
+chu-cheat-sheet = { workspace = true }
