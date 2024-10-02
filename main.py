@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from anticoagulant.prescribe import get_prescription
+from chu_cheat_sheet.prescribe import get_prescription
 
 facteurs = pd.read_csv("data/facteurs.csv")
 facteurs = facteurs[[elt for elt in facteurs.columns if not elt.startswith("Unn")]]

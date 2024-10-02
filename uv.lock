@@ -80,7 +80,7 @@ wheels = [
 [[package]]
 name = "chu-cheat-sheet"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "pandas" },
     { name = "streamlit" },
@@ -88,7 +88,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "chu-cheat-sheet", virtual = "." },
+    { name = "chu-cheat-sheet", editable = "." },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "streamlit", specifier = ">=1.39.0" },
 ]

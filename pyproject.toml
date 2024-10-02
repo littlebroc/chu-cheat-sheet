@@ -10,5 +10,9 @@ dependencies = [
     "streamlit>=1.39.0",
 ]
 
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [tool.uv.sources]
 chu-cheat-sheet = { workspace = true }
