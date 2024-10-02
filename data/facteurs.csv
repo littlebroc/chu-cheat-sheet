@@ -1,0 +1,23 @@
+,nom,or,is_majeur
+0,ATCD thromboembolie avec ou sans thrombophilie sous-jacente,20.0,True
+1,Thrombophilie asymptomatique à haut risque*,20.0,True
+2,Syndrome des antiphospholipides aspymptomatiques,20.0,True
+3,Immobilité prolongée et complète,11.0,True
+4,Hémorragie du post partum nécéssitant un acte chirurgical,12.0,True
+5,Age > 35 ans,1.4,False
+6,Obesite (IMC > 30) ou poids > 120kilos,4.0,False
+7,Parité > 3,2.0,False
+8,Tabagisme (> 10 cigarettes/J) avant ou pendant la grossesse,3.0,False
+9,Varices importantes,2.0,False
+10,Drépanocytose,4.0,False
+11,Cardiopathie majeure,7.0,False
+12,Lupus erythémateux disséminé,8.0,False
+13,Maladie inflammatoire de l’intestin,4.0,False
+14,Thrombophilie asymptomatique à bas risque**,3.0,False
+15,Anémie pendant la grossesse ou hémorragie pendant grossesse,3.0,False
+16,Grossesse obtenue par PMA,4.0,False
+17,Pré éclampsie,3.0,False
+18,Accouchement prématuré < 37SA,4.0,False
+19,Césarienne en urgence,4.0,False
+20,Hémorragie grave du post partum (> 1l ou transfusion),3.0,False
+21,Infections du post partum,4.0,False
