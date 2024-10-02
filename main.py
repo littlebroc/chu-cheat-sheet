@@ -1,6 +1,11 @@
 import streamlit as st
 import pandas as pd
 
+def wide_space_default():
+    st.set_page_config(layout="wide")
+
+wide_space_default()
+
 facteurs = pd.read_csv("data/facteurs.csv")
 facteurs = facteurs[[elt for elt in facteurs.columns if not elt.startswith("Unn")]]
 
